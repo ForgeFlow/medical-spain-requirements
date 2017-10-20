@@ -6,4 +6,5 @@ setuptools-odoo==2.0.2.post1
 
 # OCA/pos
 -e git+https://github.com/Eficent/pos.git@11.0-mig-account_cash_invoice#egg=odoo11_addon_account_cash_invoice&subdirectory=setup/account_cash_invoice
+-e git+https://github.com/etobella/account-invoicing.git@11.0-add-account_invoice_supplier_self_invoice#egg=odoo11_addon_account_invoice_supplier_self_invoice&subdirectory=setup/account_invoice_supplier_self_invoice
 
