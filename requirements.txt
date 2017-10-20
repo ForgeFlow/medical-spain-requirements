@@ -20,6 +20,21 @@ setuptools-odoo==2.0.2.post1
 -e git+https://github.com/etobella/bank-payment.git@11.0-mig-account_payment_partner#egg=odoo11_addon_account_payment_partner&subdirectory=setup/account_payment_partner
 -e git+https://github.com/etobella/bank-payment.git@11.0-mig-account_payment_order#egg=odoo11_addon_account_payment_order&subdirectory=setup/account_payment_order
 
+# OCA/commission
+-e git+https://github.com/etobella/commission.git@11.0-mig-sale_commission_formula#egg=odoo11_addon_sale_commission_formula&subdirectory=setup/sale_commission_formula
+-e git+https://github.com/etobella/commission.git@11.0-mig-sale_commission#egg=odoo11_addon_sale_commission&subdirectory=setup/sale_commission
+-e git+https://github.com/etobella/commission.git@11.0-mig-sale_commission#egg=odoo11_addon_sale_commission&subdirectory=setup/sale_commission
+
+# OCA/community-data-files
+odoo11-addon-base-iso3166==11.0.1.0.0
+
+# OCA/l10n-spain
+odoo11-addon-l10n-es-account-invoice-sequence==11.0.1.0.0
+odoo11-addon-l10n-es-account-asset==11.0.1.0.0
+odoo11-addon-l10n-es-partner-mercantil==11.0.1.0.0
+-e git+https://github.com/Tecnativa/l10n-spain.git@11.0-account_balance_reporting#egg=odoo11_addon_account_balance_reporting&subdirectory=setup/account_balance_reporting
+
+
 
 
 
