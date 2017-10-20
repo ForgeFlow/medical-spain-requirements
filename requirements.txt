@@ -32,7 +32,8 @@ odoo11-addon-base-iso3166==11.0.1.0.0
 odoo11-addon-l10n-es-account-invoice-sequence==11.0.1.0.0
 odoo11-addon-l10n-es-account-asset==11.0.1.0.0
 odoo11-addon-l10n-es-partner-mercantil==11.0.1.0.0
--e git+https://github.com/Tecnativa/l10n-spain.git@11.0-account_balance_reporting#egg=odoo11_addon_account_balance_reporting&subdirectory=setup/account_balance_reporting
+#-e git+https://github.com/Tecnativa/l10n-spain.git@11.0-account_balance_reporting#egg=odoo11_addon_account_balance_reporting&subdirectory=setup/account_balance_reporting
+
 
 
 
