@@ -4,6 +4,6 @@ setuptools-git==1.1
 setuptools-odoo==2.0.2.post1
 -e git+https://github.com/odoo/odoo.git@11.0#egg=odoo
 
-# OCA/bank-payment
--e git+https://github.com/etobella/bank-payment.git@11.0-mig-account_payment_mode#egg=odoo11_addon_account_payment_mode&subdirectory=setup/account_payment_mode
+# OCA/pos
+-e git+https://github.com/Eficent/pos.git@11.0-mig-account_cash_invoice#egg=odoo11_addon_account_cash_invoice&subdirectory=setup/account_cash_invoice
 
