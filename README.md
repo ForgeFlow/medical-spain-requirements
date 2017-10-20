@@ -36,7 +36,7 @@ If you run again the pip install -r requirements.txt, it will always attempt to 
 ### Specifics to odoo addons
 For an odoo module to be considered a python module, the repository needs to include a setup folder, that contains a subdirectory with the module name, like https://github.com/OCA/mis-builder/tree/10.0/setup/mis_builder.
 
-OCA updates every nigh the setup folder for all the OCA repositories. If you are working on a PR that adds a new module, you should extend the setup folder manually.
+OCA updates every night the setup folder for all the OCA repositories. If you are working on a PR that adds a new module, you should extend the setup folder manually.
 
 `-e git+https://github.com/Eficent/pos.git@11.0-mig-account_cash_invoice#egg=odoo11_addon_account_cash_invoice&subdirectory=setup/account_cash_invoice`
 
