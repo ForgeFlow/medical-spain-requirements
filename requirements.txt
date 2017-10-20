@@ -13,7 +13,7 @@ setuptools-odoo==2.0.2.post1
 -e git+https://github.com/etobella/account-invoicing.git@11.0-add-account_invoice_supplier_self_invoice#egg=odoo11_addon_account_invoice_supplier_self_invoice&subdirectory=setup/account_invoice_supplier_self_invoice
 
 # OCA/bank-payment
--e git+https://github.com/etobella/bank-payment.git@11.0-mig-account_payment_mandate#egg=odoo11_addon_account_payment_mandate&subdirectory=setup/account_payment_mandate
+-e git+https://github.com/etobella/bank-payment.git@11.0-mig-account_banking_mandate#egg=odoo11_addon_account_banking_mandate&subdirectory=setup/account_banking_mandate
 -e git+https://github.com/etobella/bank-payment.git@11.0-mig-account_payment_pain_base#egg=odoo11_addon_account_payment_pain_base&subdirectory=setup/account_payment_pain_base
 -e git+https://github.com/etobella/bank-payment.git@11.0-mig-account_banking_sepa_credit_transfer#egg=odoo11_addon_account_banking_sepa_credit_transfer&subdirectory=setup/account_banking_sepa_credit_transfer
 -e git+https://github.com/etobella/bank-payment.git@11.0-mig-account_banking_sepa_direct_debit#egg=odoo11_addon_account_banking_sepa_direct_debit&subdirectory=setup/account_banking_sepa_direct_debit
