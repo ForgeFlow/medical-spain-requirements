@@ -6,12 +6,13 @@ Medical Spain Requirements
 
 ### Activate virtual environment
   `$ source medical-spain-11/bin/activate`
-  
+
 *** Anytime you want to go out from virtual environment just type:
  `$ deactivate`
 
 ### Check if we are using virtualenv correctly
 `$ which pip`	
+
 `$ which python`
 
 ### Now make sure we have a recent pip version
