@@ -1,5 +1,6 @@
 -f https://wheelhouse.odoo-community.org/oca
-odoo-autodiscover==2.0.0
+-e git+https://github.com/Eficent/odoo-autodiscover.git@fix-unicode-decode-error#egg=odoo-autodiscover
+
 setuptools-git==1.1
 setuptools-odoo==2.0.2.post1
 -e git+https://github.com/odoo/odoo.git@11.0#egg=odoo
