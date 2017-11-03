@@ -18,6 +18,13 @@ setuptools-odoo==2.0.2.post1
 # OCA/account-invoicing
 -e git+https://github.com/etobella/account-invoicing.git@11.0-add-account_invoice_supplier_self_invoice#egg=odoo11_addon_account_invoice_supplier_self_invoice&subdirectory=setup/account_invoice_supplier_self_invoice
 
+# OCA/account-financial-tools
+-e git+https://github.com/Eficent/account-financial-tools.git@11.0-mig-account_reversal#egg=odoo11_addon_account_reversal&subdirectory=setup/account_reversal
+
+# OCA/account-closing
+-e git+https://github.com/Eficent/account-closing.git@11.0-mig-account_fiscal_year_closing#egg=odoo11_addon_account_fiscal_year_closing&subdirectory=setup/account_fiscal_year_closing
+
+
 # OCA/bank-payment
 -e git+https://github.com/etobella/bank-payment.git@11.0-mig-account_payment_mandate#egg=odoo11_addon_account_banking_mandate&subdirectory=setup/account_banking_mandate
 -e git+https://github.com/etobella/bank-payment.git@11.0-mig-account_payment_pain_base#egg=odoo11_addon_account_banking_pain_base&subdirectory=setup/account_banking_pain_base
