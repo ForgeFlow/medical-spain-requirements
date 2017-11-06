@@ -58,5 +58,3 @@ odoo11-addon-date-range==11.0.1.0.0.99.dev3
 
 # OCA/server-auth
 #-e git+https://github.com/etobella/server-ux.git@11.0#egg=odoo11_addon_users_ldap_mail&subdirectory=setup/users_ldap_mail
-
-
