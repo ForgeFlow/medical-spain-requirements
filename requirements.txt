@@ -36,8 +36,7 @@ setuptools-odoo==2.0.2.post1
 
 # OCA/commission
 -e git+https://github.com/etobella/commission.git@11.0-mig-sale_commission_formula#egg=odoo11_addon_sale_commission_formula&subdirectory=setup/sale_commission_formula
--e git+https://github.com/etobella/commission.git@11.0-mig-sale_commission#egg=odoo11_addon_sale_commission&subdirectory=setup/sale_commission
--e git+https://github.com/etobella/commission.git@11.0-mig-sale_commission#egg=odoo11_addon_sale_commission&subdirectory=setup/sale_commission
+-e git+https://github.com/Eficent/commission.git@11.0-mig-sale_commission#egg=odoo11_addon_sale_commission&subdirectory=setup/sale_commission
 
 # OCA/community-data-files
 odoo11-addon-base-iso3166==11.0.1.0.0
