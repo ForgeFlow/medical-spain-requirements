@@ -6,8 +6,8 @@ setuptools-odoo==2.0.2.post1
 -e git+https://github.com/odoo/odoo.git@11.0#egg=odoo
 
 # OCA/partner-contact
--e git+https://github.com/Eficent/partner-contact.git@11.0@egg=odoo11_addon_partner_firstname&subdirectory=setup/partner_firstname
--e git+https://github.com/Eficent/partner-contact.git@11.0@egg=odoo11_addon_partner_second_lastname&subdirectory=setup/partner_second_lastname
+-e git+https://github.com/Eficent/partner-contact.git@11.0#egg=odoo11_addon_partner_firstname&subdirectory=setup/partner_firstname
+-e git+https://github.com/Eficent/partner-contact.git@11.0#egg=odoo11_addon_partner_second_lastname&subdirectory=setup/partner_second_lastname
 
 # OCA/pos
 -e git+https://github.com/Eficent/pos.git@11.0-mig-pos_session_pay_invoice#egg=odoo11_addon_pos_session_pay_invoice&subdirectory=setup/pos_session_pay_invoice
