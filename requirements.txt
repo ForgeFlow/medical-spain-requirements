@@ -24,7 +24,6 @@ setuptools-odoo==2.0.2.post1
 # OCA/account-closing
 -e git+https://github.com/Eficent/account-closing.git@11.0-mig-account_fiscal_year_closing#egg=odoo11_addon_account_fiscal_year_closing&subdirectory=setup/account_fiscal_year_closing
 
-
 # OCA/bank-payment
 -e git+https://github.com/etobella/bank-payment.git@11.0-mig-account_payment_mandate#egg=odoo11_addon_account_banking_mandate&subdirectory=setup/account_banking_mandate
 -e git+https://github.com/etobella/bank-payment.git@11.0-mig-account_payment_pain_base#egg=odoo11_addon_account_banking_pain_base&subdirectory=setup/account_banking_pain_base
@@ -58,4 +57,5 @@ odoo11-addon-date-range==11.0.1.0.0.99.dev3
 # OCA/server-auth
 #-e git+https://github.com/etobella/server-ux.git@11.0#egg=odoo11_addon_users_ldap_mail&subdirectory=setup/users_ldap_mail
 
-
+# OCA/vertical-medical
+-e git+https://github.com/eficent/vertical-medical.git@11.0-mig-medical#egg=odoo11_addon_medical&subdirectory=setup/medical
