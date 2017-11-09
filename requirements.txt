@@ -59,3 +59,6 @@ odoo11-addon-date-range==11.0.1.0.0.99.dev3
 
 # OCA/vertical-medical
 -e git+https://github.com/eficent/vertical-medical.git@11.0-mig-medical#egg=odoo11_addon_medical&subdirectory=setup/medical
+-e git+https://github.com/eficent/vertical-medical.git@11.0-mig-medical_practitioner#egg=odoo11_addon_medical_practitioner&subdirectory=setup/medical_practitioner
+-e git+https://github.com/eficent/vertical-medical.git@11.0-mig-medical_center#egg=odoo11_addon_medical_center&subdirectory=setup/medical_center
+-e git+https://github.com/eficent/vertical-medical.git@11.0-workflow_plandefinition#egg=odoo11_addon_workflow_plandefinition&subdirectory=setup/workflow_plandefinition
