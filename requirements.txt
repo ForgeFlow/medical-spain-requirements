@@ -52,7 +52,7 @@ odoo11-addon-report-xml==11.0.1.0.0
 
 # OCA/server-ux
 odoo11-addon-date-range==11.0.1.0.0.99.dev3
--e git+https://github.com/etobella/server-ux.git@11.0-mig-sequence_check_digit#egg=odoo11_addon_sequence_check_digit&subdirectory=setup/sequence_check_digit
+-e git+https://github.com/OCA/server-ux.git@11.0#egg=odoo11_addon_sequence_check_digit&subdirectory=setup/sequence_check_digit
 
 # OCA/server-auth
 #-e git+https://github.com/etobella/server-ux.git@11.0#egg=odoo11_addon_users_ldap_mail&subdirectory=setup/users_ldap_mail
